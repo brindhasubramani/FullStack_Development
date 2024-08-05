@@ -12,7 +12,7 @@ import { Typography,Button } from '@mui/material';
 import { useRef } from 'react';
 import { Link } from 'react-router-dom';
 
-export default function BasicTextFields() {
+export default function Login() {
     let name=useRef(null)
     let email=useRef(null)
     let password=useRef(null)
